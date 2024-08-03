@@ -1,7 +1,8 @@
-package DesignPatterns.Creational.Factory.Machine;
+package Factory.Machine;
 
-import DesignPatterns.Creational.Factory.Product.Food;
-import DesignPatterns.Creational.Factory.Product.Hotdog;
+
+import Factory.Product.Food;
+import Factory.Product.Hotdog;
 
 public class HotdogMachine implements FoodMachine {
   @Override

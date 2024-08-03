@@ -1,4 +1,4 @@
-package DesignPatterns.Behavioral.Observer.StockMarket;
+package Observer.StockMarket;
 
 public interface StockObserver {
 

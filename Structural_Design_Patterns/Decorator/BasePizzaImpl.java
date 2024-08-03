@@ -1,4 +1,4 @@
-package DesignPatterns.Structural.Decorator;
+package Decorator;
 
 public class BasePizzaImpl implements BasePizza{
 

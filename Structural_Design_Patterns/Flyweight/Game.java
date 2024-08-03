@@ -1,4 +1,4 @@
-package DesignPatterns.Structural.Flyweight;
+package Flyweight;
 
 public class Game {
   public static void main(String[] args) {

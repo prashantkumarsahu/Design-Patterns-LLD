@@ -1,6 +1,7 @@
-package DesignPatterns.Creational.Factory.Machine;
+package Factory.Machine;
 
-import DesignPatterns.Creational.Factory.Product.Food;
+
+import Factory.Product.Food;
 
 public interface FoodMachine {
 

@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 // Only one instance of a class is created and used throughout the application.
-public class Singleton {
+public class Singleton implements Cloneable {
 
   // can also declare it as final, but that would require initialization while declaring, preventing the thread safe condition.
   private static Singleton singleInstance;
@@ -26,6 +26,12 @@ public class Singleton {
       }
     }
     return singleInstance;
+  }
+
+  // override the clone() method of Object class (which every class inherits upon).
+  @Override
+  protected Object clone() throws CloneNotSupportedException{
+    throw new CloneNotSupportedException("Singleton object cannot be cloned.");
   }
 
   // example method in the singleton class.

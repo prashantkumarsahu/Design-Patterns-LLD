@@ -1,4 +1,4 @@
-package DesignPatterns.Behavioral.Strategy;
+package Strategy;
 
 public class GameContext {
   private DifficultyLevelStrategy difficultyLevelStrategy;

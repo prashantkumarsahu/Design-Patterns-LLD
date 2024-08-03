@@ -1,4 +1,4 @@
-package DesignPatterns.Creational.Factory.Product;
+package Factory.Product;
 
 public class Pizza implements Food {
 

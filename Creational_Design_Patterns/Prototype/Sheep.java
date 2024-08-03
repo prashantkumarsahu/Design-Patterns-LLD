@@ -1,4 +1,4 @@
-package DesignPatterns.Creational.Prototype;
+package Prototype;
 
 public interface Sheep {
 

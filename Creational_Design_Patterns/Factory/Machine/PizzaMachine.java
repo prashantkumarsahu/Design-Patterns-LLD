@@ -1,7 +1,8 @@
-package DesignPatterns.Creational.Factory.Machine;
+package Factory.Machine;
 
-import DesignPatterns.Creational.Factory.Product.Food;
-import DesignPatterns.Creational.Factory.Product.Pizza;
+
+import Factory.Product.Food;
+import Factory.Product.Pizza;
 
 public class PizzaMachine implements FoodMachine {
 

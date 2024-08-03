@@ -1,7 +1,9 @@
-package DesignPatterns.Behavioral.Observer.NotifyMe_Amazon;
+package Observer.NotifyMe_Amazon;
 
+import Observer.NotifyMe_Amazon.ProductObservable;
+import Observer.NotifyMe_Amazon.ProductObserver;
 
-public class EmailProductObserverImpl implements ProductObserver{
+public class EmailProductObserverImpl implements ProductObserver {
 
   private String emailId;
 

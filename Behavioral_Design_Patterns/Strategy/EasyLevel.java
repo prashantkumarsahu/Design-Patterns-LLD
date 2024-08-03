@@ -1,4 +1,4 @@
-package DesignPatterns.Behavioral.Strategy;
+package Strategy;
 
 public class EasyLevel implements DifficultyLevelStrategy{
   // Concrete strategy implementing the strategy interface

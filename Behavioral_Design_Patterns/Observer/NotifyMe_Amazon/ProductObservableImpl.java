@@ -1,4 +1,4 @@
-package DesignPatterns.Behavioral.Observer.NotifyMe_Amazon;
+package Observer.NotifyMe_Amazon;
 
 import java.util.ArrayList;
 import java.util.List;

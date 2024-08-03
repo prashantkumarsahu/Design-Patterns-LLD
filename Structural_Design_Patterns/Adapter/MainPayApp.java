@@ -1,4 +1,4 @@
-package DesignPatterns.Structural.Adapter;
+package Adapter;
 
 public class MainPayApp {
 

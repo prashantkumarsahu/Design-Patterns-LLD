@@ -1,4 +1,4 @@
-package DesignPatterns.Behavioral.Observer.StockMarket;
+package Observer.StockMarket;
 
 public class RetailInvestor implements StockObserver{
 

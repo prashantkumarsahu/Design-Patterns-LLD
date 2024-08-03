@@ -1,4 +1,4 @@
-package DesignPatterns.Behavioral.Strategy;
+package Strategy;
 
 public class StrategyDesignPatterns {
   // Create a family of strategies:
