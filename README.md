@@ -17,6 +17,12 @@ This course aims to teach the essential principles and practices of Low-Level De
 - **Architectural Patterns**: Layered Architecture, Microservices, Event-Driven Architecture
 - **Performance Optimization**: Time and Space Complexity, Caching, Indexing
 - **Hands-On Projects**: Implementing design patterns in real-world scenarios
+- **Design Principles**:
+-    
+
+## Design Principles
+   1. **Solid Principle**
+       Refer [here](https://github.com/prashantkumarsahu/Design-Patterns-LLD/blob/master/SOLID_Principles/SOLID.java) for example source code of a Notification Service.
 
 ## Course Features
 
