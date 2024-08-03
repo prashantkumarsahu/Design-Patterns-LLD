@@ -1,4 +1,6 @@
-package DesignPatterns.Creational.Builder;
+package Builder;
+
+import Builder.Person;
 
 public class MainBuilder {
 

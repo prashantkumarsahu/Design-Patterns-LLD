@@ -1,10 +1,13 @@
-package DesignPatterns.SOLID;
+
 
 public class SOLID {
 
 }
 // ****************************************************************************************
-// WRONG
+
+// Single Responsibility Principle
+
+// WRONG, as notificationService is doing both formatting and sending the notification
 class NotificationService {
   public void sendNotification(String message) {
     // Format the message
@@ -46,13 +49,13 @@ class SmsNotificationSender extends NotificationSender {
 
 // Interface Segregation Principle
 
-// WRONG
+// WRONG - same interface is used for both emails and sms
 interface NotificationProvider {
   void sendEmail();
   void sendSMS();
 }
 
-// RIGHT
+// RIGHT - email and sms have different interfaces
 interface EmailNotificationProvider {
   void sendEmail();
 }
@@ -67,7 +70,7 @@ interface SMSNotificationProvider {
 
 // Dependency Inversion Principle
 
-// WRONG
+// WRONG -  Tight coupling of NotificationProvider into service;
 class NotificationService1 {
   private NotificationProvider provider;
 
@@ -80,7 +83,8 @@ class NotificationService1 {
   }
 }
 
-// RIGHT
+// RIGHT - create separate interface, and implement it using diff providers.
+// Loose coupling
 interface NotificationProvider1 {
   void sendNotification();
 }
@@ -96,7 +100,7 @@ class SMSNotificationProvider1 implements NotificationProvider1 {
     // Send an SMS
   }
 }
-
+// pass either Email or SMS provider here.
 class NotificationService2 {
   private NotificationProvider1 provider;
 

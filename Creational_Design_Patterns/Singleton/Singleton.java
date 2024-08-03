@@ -1,6 +1,7 @@
-package DesignPatterns.Creational.Singleton;
+package Singleton;
 
 import org.springframework.stereotype.Component;
+
 
 @Component
 // Only one instance of a class is created and used throughout the application.

@@ -1,5 +1,4 @@
-package DesignPatterns.Creational.Builder;
-
+package Builder;
 
 import lombok.Data;
 
