@@ -1,6 +1,5 @@
 package Factory.Machine;
 
-
 import Factory.Product.Food;
 
 public interface FoodMachine {
@@ -10,4 +9,5 @@ public interface FoodMachine {
 //  public abstract Food createFood();
   Food createFood();
 
+  void serveFood();
 }

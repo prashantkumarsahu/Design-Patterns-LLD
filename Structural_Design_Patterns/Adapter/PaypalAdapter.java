@@ -1,8 +1,8 @@
 package Adapter;
 
+// To be written by Payment Aggregator
 public class PaypalAdapter implements PaymentGateway{
 
-  // To be written by Payment Aggregator
   private PayPal payPalGateway;
 
   public PaypalAdapter(PayPal payPalGateway) {
