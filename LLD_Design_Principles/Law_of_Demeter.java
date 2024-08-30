@@ -23,6 +23,7 @@ public class Law_of_Demeter {
         }
     }
 
+    // ******************************************************************************************
     // RIGHT - With Law of Demeter
     class Engine1 {
         public void start() {

@@ -25,6 +25,7 @@ public class Polymorphism_Over_Conditions {
         }
     }
 
+    // ******************************************************************************************
     // With Polymorphism: Using polymorphic method calls
     public interface Notification {
         void send();

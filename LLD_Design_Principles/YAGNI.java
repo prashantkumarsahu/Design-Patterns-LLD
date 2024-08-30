@@ -1,4 +1,5 @@
 public class YAGNI {
+    // You Aint Gonna Need It.
 
     // Violating YAGNI: Adding a feature for future use
     class PaymentProcessor1 {
