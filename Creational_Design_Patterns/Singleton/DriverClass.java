@@ -11,16 +11,19 @@ public class DriverClass {
 
   @GetMapping("/")
   public Integer getSingleTonObject(){
-    return Singleton.getSingleInstance().x;
+    return Singleton_Static_Synchronized.getSingleInstance().x;
   }
 
   public static void main(String[] args) throws CloneNotSupportedException {
 
-    Singleton singletonObj1 = Singleton.getSingleInstance();
-    Singleton singletonObj2 = Singleton.getSingleInstance();
+    Singleton_Static_Synchronized singletonObj1 = Singleton_Static_Synchronized.getSingleInstance();
+    Singleton_Static_Synchronized singletonObj2 = Singleton_Static_Synchronized.getSingleInstance();
     Object singletonObj3 = singletonObj2.clone();
     System.out.println(singletonObj1 == singletonObj2);
 
+    Singleton_Enums singleton3 = Singleton_Enums.INSTANCE;
+    singleton3.setValue(100);
+    System.out.println(singleton3.getValue());
 
     /* ****************************************************************
    Advantages:
